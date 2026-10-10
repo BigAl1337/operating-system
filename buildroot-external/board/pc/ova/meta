@@ -1,4 +1,4 @@
-BOARD_ID=ova
+BOARD_ID=ova-ext4
 BOARD_NAME="Open Virtual Appliance"
 CHASSIS=vm
 BOOTLOADER=grub
