@@ -5,4 +5,4 @@ Description=HAOS config partition
 What=/dev/disk/by-label/CONFIG
 Where=/mnt/config
 Type=auto
-Options=ro
+Options=rw

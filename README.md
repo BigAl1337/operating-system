@@ -42,6 +42,7 @@ The Home Assistant Operating System documentation can be found on the [Home Assi
   - [Buildroot](https://buildroot.org/) LTS Linux
 - **File Systems:**
   - [SquashFS](https://www.kernel.org/doc/Documentation/filesystems/squashfs.txt) for read-only file systems (using LZ4 compression)
+  - [Ext4](https://www.kernel.org/doc/Documentation/filesystems/ext4.txt) for read-write file systems
   - [ZRAM](https://www.kernel.org/doc/Documentation/blockdev/zram.txt) for `/tmp`, `/var` and swap (using LZ4 compression)
 - **Container Platform:**
   - [Docker Engine](https://docs.docker.com/engine/) for running Home Assistant components in containers

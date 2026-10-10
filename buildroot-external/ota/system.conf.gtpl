@@ -36,7 +36,7 @@ bootname=A
 
 [slot.rootfs.0]
 device=/dev/disk/by-partlabel/hassos-system0
-type=raw
+type=ext4
 parent=kernel.0
 
 [slot.kernel.1]
@@ -46,5 +46,5 @@ bootname=B
 
 [slot.rootfs.1]
 device=/dev/disk/by-partlabel/hassos-system1
-type=raw
+type=ext4
 parent=kernel.1
