@@ -32,7 +32,7 @@ install_boot() {
         cp -r "${BOOT_NEW}/slot-A" "${BOOT_MNT}/slot-default"
         # Add rootfstype=erofs to cmdline.txt, can be removed in HAOS 19.0
         if ! grep -q "rootfstype=" "${BOOT_MNT}/cmdline.txt"; then
-            sed -i "1 s/root=[^ ]*/& rootfstype=erofs/" "${BOOT_MNT}/cmdline.txt"
+            sed -i "1 s/root=[^ ]*/& rootfstype=ext4/" "${BOOT_MNT}/cmdline.txt"
         fi
     else
         # Backup boot config
