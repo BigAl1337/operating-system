@@ -5,4 +5,4 @@ VERSION_SUFFIX="ext4"
 HAOS_NAME="Home Assistant OS"
 HAOS_ID="haos"
 
-DEPLOYMENT="development"
+DEPLOYMENT="ext4rw"
